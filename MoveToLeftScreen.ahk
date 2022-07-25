@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 +F13::
-Send, {LWin up}
+Send, {#d}  ;{LWin up}
 ;Move hovered window to second monitor at center position
  SysGet, Mon1, Monitor, 1
  WatchCursor:
