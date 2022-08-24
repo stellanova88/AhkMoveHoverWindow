@@ -18,6 +18,8 @@ Send, {#d}  ;{LWin up}
 ; ^j::
 +F14::
     Send, {LWin down}{Left down}{LWin up}
+    Sleep, 100
+    Send "{Shift up}"
 return
 
 ;Send Shift f14 
@@ -26,4 +28,6 @@ return
 
 +F15::
     Send, {LWin down}{Right down}{LWin up}
+    Sleep, 100
+    Send "{Shift up}"
 return
