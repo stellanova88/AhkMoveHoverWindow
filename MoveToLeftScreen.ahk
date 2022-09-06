@@ -19,15 +19,15 @@ Send, {#d}  ;{LWin up}
 +F14::
     Send, {LWin down}{Left down}{LWin up}
     Sleep, 100
-    Send "{Shift up}"
+    Send, {Shift up}
 return
 
-;Send Shift f14 
+;Send Shift f14
 ; ^j::
 ; send, +{vk7E}
 
 +F15::
     Send, {LWin down}{Right down}{LWin up}
     Sleep, 100
-    Send "{Shift up}"
+    Send, {Shift up}
 return
